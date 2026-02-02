@@ -11,13 +11,13 @@ public class FallbackController {
     @GetMapping("/user-fallback")
     public String userServiceFallback() {
         // если Circuit Breaker зафиксирует сбой в user-service
-        return "Извините, сервис (userService) пользователей сейчас недоступен. Мы уже чиним!";
+        return "Извините, сервис пользователей (userService) сейчас недоступен. Мы уже чиним!";
     }
 
     @GetMapping("/notification-fallback")
     public String notificationServiceFallback() {
         // если Circuit Breaker зафиксирует сбой в user-service
-        return "Извините, сервис (notificationService) пользователей сейчас недоступен. Мы уже чиним!";
+        return "Извините, сервис уведомлений (notificationService) сейчас недоступен. Мы уже чиним!";
     }
 }
 
