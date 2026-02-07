@@ -1,4 +1,4 @@
-package gateway_service;
+package aston.gateway_service;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

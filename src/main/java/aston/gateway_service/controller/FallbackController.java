@@ -1,4 +1,4 @@
-package gateway_service.controller;
+package aston.gateway_service.controller;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

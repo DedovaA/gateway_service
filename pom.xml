@@ -9,12 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 
-	<groupId>gateway-service</groupId>
-	<artifactId>gateway_service</artifactId>
+	<groupId>aston</groupId>
+	<artifactId>gateway-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
-	<name>gateway_service</name>
-	<description>Demo project for Spring Boot</description>
 
 	<properties>
 		<java.version>21</java.version>
